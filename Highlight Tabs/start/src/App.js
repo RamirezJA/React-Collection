@@ -7,6 +7,7 @@ function App() {
       <div className="browser">
         <div className="tabs">
           <div className="tab">
+            <div className='highlight'/>
             <a>Home</a>
           </div>
           <div className="tab">
