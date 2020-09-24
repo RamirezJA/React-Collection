@@ -99,5 +99,5 @@ body {
   border-radius: 50%;
   opacity: 1;
   pointer-events: none;
-  background: radial-gradient(red, (rgba(157, 128, 238, 0)));
+  background: red
 }
