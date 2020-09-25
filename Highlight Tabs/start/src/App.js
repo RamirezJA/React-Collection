@@ -7,7 +7,7 @@ const [highlightStyle, setHighlightStyle ] = useState({left: 0});
 function moveHighlight(e) {
   //update highlightStyle to move the highlight
   setHighlightStyle({
-    left: -200
+    left: e.nativeEvent.layerX
   })
 }
 
