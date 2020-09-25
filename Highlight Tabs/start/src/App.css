@@ -96,8 +96,10 @@ body {
   height: 80px;
   width: 300px;
   top: -10px;
+  left: -100px;
   border-radius: 50%;
-  opacity: 1;
+  transition: 0.3s ease all;
+  opacity: 0.8;
   pointer-events: none;
-  background: red
+  background: radial-gradient(rgba(157, 128, 238, 1), rgba(157, 128, 238, 0))
 }
